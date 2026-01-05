@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Reparaciones from './pages/Reparaciones';
@@ -8,7 +8,8 @@ import Inventario from './pages/Inventario';
 
 function App() {
   return (
-    <BrowserRouter>
+    // Cambiado de BrowserRouter a HashRouter
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -16,7 +17,7 @@ function App() {
         <Route path="/nueva-orden" element={<NuevaOrden />} />
         <Route path="/inventario" element={<Inventario />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   )
 }
