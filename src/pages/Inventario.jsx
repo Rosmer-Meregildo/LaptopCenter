@@ -4,7 +4,7 @@ import { ArrowLeft, Trash2, Edit, Plus, Search, Package, Lock, Eye, EyeOff, X, S
 import Swal from 'sweetalert2';
 
 // 🔴 TU URL DE APPS SCRIPT AQUÍ 🔴
-const API_URL = "https://script.google.com/macros/s/AKfycbx9F1NdDumt2pRdYeHTFXLl1gNX3PKJBteH7LYsF4LEgTuqavXrkmV-dJxV-ZEmLE4d/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbz2W0Bbn6Yn4hlzVdK52afvB5QLaI7_3_pl67Sx6J3YZEP1jYwK3yziLbhliC-HGzoW/exec";
 
 // Lista de marcas predefinidas
 const MARCAS_COMUNES = [
@@ -419,7 +419,7 @@ const Inventario = () => {
                             <div>
                                 <label className="text-xs font-bold text-gray-500 uppercase mb-1 block">Categoría</label>
                                 <select className="w-full p-3 border border-gray-200 rounded-xl bg-gray-50 focus:ring-2 focus:ring-blue-500 outline-none transition" value={formData.categoria} onChange={e => setFormData({ ...formData, categoria: e.target.value })}>
-                                    <option>Teclados</option><option>Cargadores</option><option>motherboard</option><option>Laptops</option><option>Memorias</option><option>Discos SSD / HDD</option>
+                                    <option>Teclados</option><option>Cargadores</option><option>motherboard</option><option>Laptops</option><option>Memorias</option><option>Discos SSD / HDD</option><option>Camaras</option><option>Monitores</option><option>Parlantes</option><option>Case</option><option>Coolers</option><option>Otros</option>
                                 </select>
                             </div>
 

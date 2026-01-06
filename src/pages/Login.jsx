@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
 // 🔴 🔴 PEGA TU URL DE APPS SCRIPT AQUÍ: 🔴 🔴
-const API_URL = "https://script.google.com/macros/s/AKfycbx59aEc9Lj4e2Tk--OX1cQecCrhLKLDKjOjHZFqENwyQw11XkLRSigptqJJKzAQW5GK/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbz2W0Bbn6Yn4hlzVdK52afvB5QLaI7_3_pl67Sx6J3YZEP1jYwK3yziLbhliC-HGzoW/exec";
 
 export default function Login() {
     const [showPassword, setShowPassword] = useState(false);
